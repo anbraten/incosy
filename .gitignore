@@ -2,3 +2,4 @@ data/*
 !data/.gitkeep
 index/*
 !index/.gitkeep
+.env

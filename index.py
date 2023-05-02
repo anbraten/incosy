@@ -1,8 +1,11 @@
 import os, streamlit as st
 
-from llama_index import SimpleDirectoryReader, LLMPredictor, PromptHelper, ServiceContext, GPTVectorStoreIndex, StorageContext
+from llama_index import SimpleDirectoryReader, LLMPredictor, PromptHelper, ServiceContext, GPTVectorStoreIndex, StorageContext, load_index_from_storage
 from langchain.llms.openai import OpenAI
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 index = None
 index_dir = "./index"
@@ -13,7 +16,7 @@ def initialize_index():
     if index is not None:
         return
 
-    storage_context = StorageContext.from_defaults()
+    storage_context = StorageContext.from_defaults(persist_dir=index_dir)
     if os.path.exists(index_dir):
         index = load_index_from_storage(storage_context)
     else:
