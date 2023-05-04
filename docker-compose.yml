@@ -1,0 +1,61 @@
+version: "3.3"
+services:
+  typebot-db:
+    image: postgres:13
+    restart: always
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=typebot
+      - POSTGRES_PASSWORD=typebot
+  typebot-builder:
+    image: baptistearno/typebot-builder:latest
+    restart: always
+    depends_on:
+      - typebot-db
+    ports:
+      - "8080:3000"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    # See https://docs.typebot.io/self-hosting/configuration for more configuration options
+    environment:
+      - DATABASE_URL=postgresql://postgres:typebot@typebot-db:5432/typebot
+      - NEXTAUTH_URL
+      - NEXT_PUBLIC_VIEWER_URL
+      - ENCRYPTION_SECRET
+      - ADMIN_EMAIL
+      - SMTP_USERNAME
+      - SMTP_PASSWORD
+      - SMTP_HOST
+      - SMTP_PORT
+      - NEXT_PUBLIC_SMTP_FROM
+  typebot-viewer:
+    image: baptistearno/typebot-viewer:latest
+    restart: always
+    ports:
+      - "8081:3000"
+    # See https://docs.typebot.io/self-hosting/configuration for more configuration options
+    environment:
+      - DATABASE_URL=postgresql://postgres:typebot@typebot-db:5432/typebot
+      - NEXT_PUBLIC_VIEWER_URL
+      - ENCRYPTION_SECRET
+
+  gotenberg:
+    image: gotenberg/gotenberg:7
+    command:
+      - "gotenberg"
+
+  python:
+    image: python:3.9-slim
+    working_dir: /src
+    command: /src/run.sh
+    ports:
+      - 5000:5000
+    environment:
+      - OPENAI_API_KEY
+    volumes:
+      - ./src:/src
+      - ./cache/:/root/.cache/pip
+
+volumes:
+  db_data:

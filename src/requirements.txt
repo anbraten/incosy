@@ -1,3 +1,4 @@
 streamlit==1.22.0
 llama-index==0.6.0.alpha6
 python-dotenv==1.0.0
+flask==2.3.2
