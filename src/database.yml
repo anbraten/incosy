@@ -1,0 +1,36 @@
+products:
+  - name: Patientenlift
+    websites:
+      - https://www.pflege.de/hilfsmittel/hebehilfe-umsetzhilfe/patientenlifter/
+  - name: Digitales Ausfallmanagement
+    websites:
+      - https://www.cliniserve.de/team-ausfallmanagement/
+      - https://gesund.pulsnetz.de/ki-projekt/ki-garage/ki-katalog/show/technology/ID58
+  - name: Pflegebett
+    websites:
+      - https://www.muehle-mueller.de/sitzbetten-aufstehbetten/pflegebett-mobilia.html
+      - https://gesund.pulsnetz.de/ki-projekt/ki-garage/ki-katalog/show/technology/ID576
+  - name: Akustisches Monitoring
+    websites:
+      - https://clb.care/
+      - https://gesund.pulsnetz.de/ki-projekt/ki-garage/ki-katalog/show/technology/ID10
+  - name: Klangkissen
+    websites:
+      - https://inmutouch.com/de/inmurelax-info/
+      - https://gesund.pulsnetz.de/ki-projekt/ki-garage/ki-katalog/show/technology/ID584
+  - name: Vitaldaten-Weste
+    websites:
+      - https://www.hexoskin.com/
+      - https://gesund.pulsnetz.de/ki-projekt/ki-garage/ki-katalog/show/technology/ID108
+  - name: E-Learning für Pflege
+    websites:
+      - https://www.pflegecampus.de/
+      - https://gesund.pulsnetz.de/ki-projekt/ki-garage/ki-katalog/show/technology/ID352
+  - name: Medical Care Glasses
+    websites:
+      - https://explore.iteratec.com/blog/medical-care-glasses-mit-augmented-reality-die-zukunft-der-pflege-gestalten
+      - https://gesund.pulsnetz.de/ki-projekt/ki-garage/ki-katalog/show/technology/ID353
+  - name: Trinkwecker
+    websites:
+      - https://www.ulla.io/
+      - https://gesund.pulsnetz.de/ki-projekt/ki-garage/ki-katalog/show/technology/ID355
