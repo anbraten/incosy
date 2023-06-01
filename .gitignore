@@ -1,6 +1,7 @@
-data/*
-!data/.gitkeep
+src/data/*
+!src/data/.gitkeep
 index/
 src/index
 .env
 __pycache__
+cache/
