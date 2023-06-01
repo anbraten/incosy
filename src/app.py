@@ -6,6 +6,7 @@ import string
 import incosy
 import json
 import yaml
+import requests
 
 load_dotenv()
 
@@ -16,7 +17,7 @@ def get_random_string(length):
 
 
 # scrape.scrape()
-vectorstore = incosy.get_vector_store()
+# vectorstore = incosy.get_vector_store()
 chats = dict()
 app = Flask(__name__)
 
@@ -24,7 +25,7 @@ app = Flask(__name__)
 @app.route("/chat/start", methods=['POST'])
 def start_chat():
     chat_id = get_random_string(8)
-    chats[chat_id] = incosy.open_chat(vectorstore)
+    chats[chat_id] = incosy.open_chat()
     return chat_id
 
 
@@ -72,3 +73,25 @@ def get_product():
             return product
 
     return "Product not found"
+
+
+@app.route("/product/suggest", methods=['POST'])
+def suggest_product():
+    baseUrl = "https://budibase.app/api/public/v1/"
+    url = baseUrl + "tables/" + \
+        os.getenv("BUDIBASE_SUGGESTIONS_TABLE_ID") + "/rows"
+
+    data = {
+        "problem": request.args.get('problem').strip(),
+        "suggestion": request.args.get('suggestion').strip(),
+        "status": "open",
+    }
+
+    headers = {
+        'x-budibase-app-id': os.getenv("BUDIBASE_APP_ID"),
+        'x-budibase-api-key': os.getenv("BUDIBASE_API_KEY"),
+    }
+
+    response = requests.post(url, json=data, headers=headers)
+    print(response.status_code)
+    return "ok"
