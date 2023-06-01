@@ -6,6 +6,7 @@ import string
 import incosy
 import json
 import yaml
+import requests
 
 load_dotenv()
 
@@ -50,8 +51,6 @@ def stop_chat():
     chat_id = request.args.get('chat_id')
     if chat_id is None:
         return "No chat_id provided"
-    if chat_id not in chats:
-        return "No chat found for chat_id " + chat_id
     del chats[chat_id]
     return "ok"
 
@@ -74,3 +73,25 @@ def get_product():
             return product
 
     return "Product not found"
+
+
+@app.route("/product/suggest", methods=['POST'])
+def suggest_product():
+    baseUrl = "https://budibase.app/api/public/v1/"
+    url = baseUrl + "tables/" + \
+        os.getenv("BUDIBASE_SUGGESTIONS_TABLE_ID") + "/rows"
+
+    data = {
+        "problem": request.args.get('problem').strip(),
+        "suggestion": request.args.get('suggestion').strip(),
+        "status": "open",
+    }
+
+    headers = {
+        'x-budibase-app-id': os.getenv("BUDIBASE_APP_ID"),
+        'x-budibase-api-key': os.getenv("BUDIBASE_API_KEY"),
+    }
+
+    response = requests.post(url, json=data, headers=headers)
+    print(response.status_code)
+    return "ok"
