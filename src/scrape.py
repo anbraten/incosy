@@ -41,3 +41,7 @@ def scrape():
                 print('Finished downloading PDF to: ' + filename)
             else:
                 print('PDF ' + filename + ' already exists')
+
+
+if __name__ == '__main__':
+    scrape()

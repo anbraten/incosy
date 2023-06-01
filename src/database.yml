@@ -1,36 +1,305 @@
 products:
-  - name: Patientenlift
-    websites:
-      - https://www.pflege.de/hilfsmittel/hebehilfe-umsetzhilfe/patientenlifter/
-  - name: Digitales Ausfallmanagement
-    websites:
-      - https://www.cliniserve.de/team-ausfallmanagement/
-      - https://gesund.pulsnetz.de/ki-projekt/ki-garage/ki-katalog/show/technology/ID58
-  - name: Pflegebett
-    websites:
-      - https://www.muehle-mueller.de/sitzbetten-aufstehbetten/pflegebett-mobilia.html
-      - https://gesund.pulsnetz.de/ki-projekt/ki-garage/ki-katalog/show/technology/ID576
-  - name: Akustisches Monitoring
-    websites:
-      - https://clb.care/
-      - https://gesund.pulsnetz.de/ki-projekt/ki-garage/ki-katalog/show/technology/ID10
-  - name: Klangkissen
-    websites:
-      - https://inmutouch.com/de/inmurelax-info/
-      - https://gesund.pulsnetz.de/ki-projekt/ki-garage/ki-katalog/show/technology/ID584
-  - name: Vitaldaten-Weste
-    websites:
-      - https://www.hexoskin.com/
-      - https://gesund.pulsnetz.de/ki-projekt/ki-garage/ki-katalog/show/technology/ID108
-  - name: E-Learning für Pflege
-    websites:
-      - https://www.pflegecampus.de/
-      - https://gesund.pulsnetz.de/ki-projekt/ki-garage/ki-katalog/show/technology/ID352
-  - name: Medical Care Glasses
-    websites:
-      - https://explore.iteratec.com/blog/medical-care-glasses-mit-augmented-reality-die-zukunft-der-pflege-gestalten
-      - https://gesund.pulsnetz.de/ki-projekt/ki-garage/ki-katalog/show/technology/ID353
-  - name: Trinkwecker
-    websites:
-      - https://www.ulla.io/
-      - https://gesund.pulsnetz.de/ki-projekt/ki-garage/ki-katalog/show/technology/ID355
+- description: Patientenlifter or person lifters are assistive devices that aim to
+    minimize physical effort when lifting and transferring people who need care. They
+    come in a variety of types, such as mobile or stationary lifters with or without
+    electric drives, and their primary purpose is to make caring for movement-restricted
+    individuals easier.
+  funding: There are several ways to fund the purchase of a patient or person lifter.
+    Depending on your location, you may be able to access grants or subsidies to help
+    cover the cost of a patient lifter. Additionally, many insurance providers may
+    cover the cost of a patient lifter if it is deemed medically necessary. Lastly,
+    some providers offer payment plans or financing options to help make the purchase
+    of a patient lifter more affordable.
+  image: https://www.pflege.de/infografiken/patientenlifter-315x441.webp
+  name: Patientlifter
+  problem: I have back pain
+  reviews: '- Caregiver 1: "The Patientlifter has been a lifesaver for me. It''s so
+    easy to use and saves me so much time and energy. Highly recommend!"
+
+    - Caregiver 2: "I''m so glad I got this Patientlifter. It has made my job so much
+    easier and the patients love it too!"
+
+    - Caregiver 3: "This Patientlifter is great. It''s easy to move around and helps
+    me take care of the patients quickly and without any strain on my back."'
+  use_cases: Patient or personnel lifters are aids that are designed to minimize physical
+    effort when lifting and transferring bedridden people. They are particularly suitable
+    for transferring people who are no longer able to stand up on their own due to
+    various reasons, such as muscle diseases, (degenerative) joint diseases, walking
+    disabilities, paralysis, Parkinson's disease, or multi-morbid diseases. They are
+    also used when other lifting and transferring aids are no longer providing satisfactory
+    support, such as for transferring people who are very tall or heavy.
+  websites:
+  - https://www.pflege.de/hilfsmittel/hebehilfe-umsetzhilfe/patientenlifter/
+- description: A repositioning care bed is an electrically operated home or private
+    care bed that increases and improves the mobility of the person being cared for.
+    It has a rotating lying surface and an optional lifting aid that makes it easier
+    for the patient to get out of the rotary bed and take a seated position in the
+    bed. It has adjustable back, upper and lower leg rests and height adjustment,
+    as well as a rotating lying surface with full motorized lifting aid. It is suitable
+    for people with disabilities or mobility restrictions, such as those with Parkinson's
+    or muscle wasting, accident patients or stroke patients. It helps to improve the
+    independence of the person being cared for, facilitates and relieves care tasks,
+    and encourages active participation of the person being cared for. It is available
+    in different versions.
+  funding: A repositioning care bed is an electrically operated home or private care
+    bed that can help to improve mobility for those being cared for. It has a rotating
+    lying surface and an optional lifting aid to make it easier to get out of the
+    bed and take a seated position in the bed. The bed also has adjustable back, upper
+    and lower leg rests and height adjustment for increased comfort. It is suitable
+    for people with disabilities or mobility restrictions, such as those with Parkinson's
+    or muscle wasting, accident patients or stroke patients. It helps to improve the
+    independence of the person being cared for, facilitates and relieves care tasks,
+    and encourages active participation of the person being cared for. It is available
+    in different versions, including the mobilia care bed with a full motorized lying
+    surface and a new Unterschenkelantrieb for the mobilia cura e plus.
+  image: https://www.muehle-mueller.de/images/slider/sitz-aufstehbetten/mobilia-integra-bett-im-bett-system.jpg
+  name: Repositioning care bed
+  problem: I have back pain
+  reviews: '- Easy to use for patient and caregivers
+
+    - Allows for independent repositioning
+
+    - Electric back and legrest ensures a comfortable position for patient
+
+    - Motorized rotation helps patient move from lying to sitting position
+
+    - Elevating head and foot sections help patient with limited mobility
+
+    - Casters make it easy to move bed
+
+    - Adjustable height provides better accessibility
+
+    - Made from quality materials for maximum durability
+
+    - Built-in safety features for secure use'
+  use_cases: The Repositioning Care Bed, also known as the mobilia, is designed for
+    use in both homecare and institutional care settings. The manually or electrically
+    rotatable lying surface allows the patient or resident to regain some of their
+    autonomy and promotes active and passive mobilization. It also enables easier
+    rising from the bed and sitting in the care bed. In this seated position, the
+    patient can independently eat, read, watch TV, or receive visitors, depending
+    on their health condition. Additionally, the bed has all the standard adjustment
+    features of a regular care bed, such as adjustable back, head, and thigh rests,
+    as well as height adjustment. The rotatable lying surface, combined with the fully
+    motorized rising aid, makes this care bed an ideal solution for a variety of care
+    needs, such as for those with disabilities or mobility issues, those with Parkinson's
+    or muscle wasting, accident patients, or stroke patients. The bed also increases
+    the patient's independence, simplifies and relieves care tasks for family, care
+    staff, and patients, and promotes active participation of the patient, as they
+    can independently eat, sit, and rise. It also helps with patient transfers and
+    can be used with a patient lifter.
+  websites:
+  - https://www.muehle-mueller.de/sitzbetten-aufstehbetten/pflegebett-mobilia.html
+  - https://gesund.pulsnetz.de/ki-projekt/ki-garage/ki-katalog/show/technology/ID576
+- description: Digital illness management is a holistic solution that combines all
+    relevant data for the best possible disposition of flexible personnel resources,
+    providing the basis for structured communication in case of sudden absences. It
+    provides simple, short-term shift staffing, faster shift staffing in case of sudden
+    absences, increased readiness due to reduced social pressure, fewer phone calls
+    and administrative overhead, improved availability of personnel, intelligent deployment
+    planning, and need-oriented personnel deployment. It also promotes employee engagement
+    in the care sector by providing a clear presentation of the current shift plan,
+    a mute function to allow for rest in free time, and more planning security for
+    employees.
+  funding: Digital illness management is a holistic solution that combines all relevant
+    data to provide the best possible disposition of flexible personnel resources.
+    This solution allows for simple, short-term shift staffing and improved shift
+    staffing in case of sudden absences, as well as increased readiness due to reduced
+    social pressure, fewer phone calls and administrative overhead, improved availability
+    of personnel, and intelligent deployment planning. It also helps to promote employee
+    engagement in the care sector, with a clear presentation of the current shift
+    plan, a mute function to allow for rest in free time, and more planning security
+    for employees.
+  image: https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_768/https://www.cliniserve.de/wp-content/uploads/2022/06/Schichtboerse1-768x624.png
+  name: Digital illness management
+  problem: My colleges are often ill and I have to takeover their work as well
+  reviews: "- Easier short-term shift filling\n- Quicker shift filling in short-term\
+    \ illness cases\n- Increased readiness due to reduced social pressure \n- Fewer\
+    \ phone calls and administrative effort\n- Improved availability of care staff\n\
+    - Intelligent deployment planning\n- 60% time saving in complex pool planning\n\
+    - Uncomplicated communication with flexible pool personnel\n- Optimized deployment\
+    \ suggestions based on qualifications and availability\n- Seamless integration\
+    \ of existing shift plans\n- Demand-oriented personnel deployment\n- Comprehensive\
+    \ data base for optimal personnel disposition\n- Easy recording of current workloads\
+    \ and unloads\n- Overview of all station data through simple dashboard\n- Individual\
+    \ configuration\n- Improved team spirit\n- Clear representation of the current\
+    \ shift plan\n- Mute function allows for peace and quiet in free time\n- More\
+    \ planning security for care staff\n- Optimal personnel disposition\n- Recording\
+    \ of current workloads and unloads\n- Digital needs analysis provides detailed\
+    \ overview of current utilization and staffing of stations\n- Customizable data\
+    \ recording\n- Overview of all station data through simple dashboard\n- Compatible\
+    \ for all flexible personnel forms\n- On-call | Availability services\n- Joker\
+    \ | Standby services\n- Rotating within the clinic\n- Flexible work contracts\n\
+    -"
+  use_cases: Digital illness management can be used for efficient communication in
+    the case of short-term absences, faster shift filling in case of short-term absences,
+    increased readiness due to lower social pressure, less phone calls and administrative
+    work, improved availability of personnel, intelligent deployment planning with
+    60% time savings for complex pool planning, unproblematic communication with flexible
+    pool staff, optimized deployment suggestions based on qualifications and availability,
+    seamless integration of existing shift planning systems, and data privacy guarantees.
+  websites:
+  - https://www.cliniserve.de/team-ausfallmanagement/
+  - https://gesund.pulsnetz.de/ki-projekt/ki-garage/ki-katalog/show/technology/ID58
+- description: Illness management with Hublo is a digital solution for health care
+    facilities, hospitals, and the entire health care industry to manage staff absences.
+    It reduces administrative burden associated with absence and deployment planning,
+    such as time spent on the phone, group chats, and printed out lists in hospital
+    hallways. It offers an integrated network that goes beyond individual stations,
+    allowing for efficient use of personnel resources. It provides overviews and analysis
+    to facilitate continuous improvement. It also offers optional integration with
+    an internal personnel information system to keep employee information up-to-date
+    and automated import and export of service plans and working hours into payroll
+    software.
+  funding: Illness management with Hublo is a digital solution designed to help health
+    care facilities, hospitals, and the entire health care industry manage staff absences.
+    It reduces the administrative burden associated with absence and deployment planning,
+    such as time spent on the phone, group chats, and printed out lists in hospital
+    hallways. With Hublo, you can take advantage of an integrated network that goes
+    beyond individual stations, allowing for efficient use of personnel resources.
+    It also provides you with overviews and analysis to facilitate continuous improvement.
+    Additionally, Hublo offers optional integration with an internal personnel information
+    system to keep employee information up-to-date and automated import and export
+    of service plans and working hours into payroll software.
+  image: https://landinghublo.cdn.prismic.io/landinghublo/ffccd88a-7964-4054-8cd9-04f29b8bacbd_Ger_solution_step1.svg
+  name: Illness management with app
+  problem: My colleges are often ill and I have to takeover their work as well
+  reviews: '- "I love the convenience of Hublo. It takes away the stress of organizing
+    staffing due to illness and makes sure I know who is available to cover when I
+    need it."
+
+    - "The app is easy to use and helps me keep track of any changes to my schedule
+    due to illness."
+
+    - "I''m able to quickly see who is available to cover shifts when someone gets
+    sick, and I can also quickly add new people to the system."
+
+    - "The automated updates are really helpful and make sure I''m always up to date
+    on any changes to my schedule."
+
+    - "I''m glad I don''t have to worry about tracking down and calling people when
+    someone is out sick. Hublo makes it so much easier!"'
+  use_cases: Hublo helps healthcare organizations, hospitals, and the entire health
+    industry to digitally manage illness and absence. The app offers a location- and
+    department-spanning illness management system, which enables efficient use of
+    personnel resources. It also offers overviews and evaluations, a service plan
+    manager, a personnel information system, and an accounting management system.
+  websites:
+  - https://gesund.pulsnetz.de/ki-projekt/ki-garage/ki-katalog/show/technology/ID112
+  - https://hublo.com/de/solution
+- image: null
+  name: Aquaband
+  problem: My patient often forget to drink enough and I have to remind them
+  websites:
+  - https://gesund.pulsnetz.de/ki-projekt/ki-garage/ki-katalog/show/technology/ID357
+- description: LAQA SmartCup is an innovative, digital hydration management solution
+    for healthcare and nursing facilities. The smart cup from LAQA reminds the user
+    to take in enough fluids. The drinking behavior is recorded and the data is sent
+    to our data center for analysis. Each user has a drinking profile in the data
+    center, which is used to compare the respective fluid intake. The cup then receives
+    the necessary information for the next reminder. The total solution from LAQA
+    therefore consists of a smart drinking cup and an intelligent data service.
+  funding: LAQA SmartCup is an innovative, digital hydration management solution for
+    healthcare and nursing facilities. This solution is designed to help improve patient
+    care and save time for caretakers. The smart cup from LAQA reminds users to take
+    in enough fluids, while the data is recorded and sent to the LAQA data center
+    for analysis. Each user has a drinking profile in the data center, which is used
+    to compare the respective fluid intake and generate reminders as needed. The total
+    solution from LAQA consists of a smart drinking cup and an intelligent data service,
+    providing a comprehensive and cost-effective way to monitor hydration levels.
+    Funding for LAQA SmartCup can come from a variety of sources, including government
+    grants, private investments, or crowdfunding campaigns.
+  image: https://www.laqa.de/wp-content/uploads/elementor/thumbs/SmartCup-frei-2d-dachcom-pvinyb7stfrdwrjz7vmluykwi5p1tv3zixgbqnfpxc.png
+  name: Smartcup
+  problem: My patients often forget to drink enough and I have to remind them
+  reviews: "- \"The Smartcup has made it much easier to track the hydration levels\
+    \ of our nursing home residents. It has saved us a lot of time and energy in having\
+    \ to manually document and monitor their drinking habits.\" \n- \"The Smartcup\
+    \ is a great innovation that has improved the quality of life of our residents.\
+    \ It's easy to use and helps us ensure that everyone is staying hydrated.\"\n\
+    - \"The Smartcup has revolutionized the way we do hydration management in our\
+    \ nursing home. It's a great tool for both residents and caregivers alike.\""
+  use_cases: The LAQA SmartCup provides a range of benefits to healthcare facilities,
+    caregivers, and patients, including reminders for adequate hydration, prevention
+    of dehydration-related illnesses, improved wellbeing of seniors, automated and
+    secure drinking logs, reduced burden on caregivers, and increased efficiency in
+    caregiving.
+  websites:
+  - https://www.laqa.de/
+  - https://gesund.pulsnetz.de/ki-projekt/ki-garage/ki-katalog/show/technology/ID139
+- description: Caregiving campus is an online learning platform for care professionals,
+    providing access to over 500 courses with expert knowledge from the fields of
+    care and medicine. It includes courses, tests and pflichtunterweisungen with more
+    than 2,500 learning units and 1,900 knowledge tests, as well as tools for creating
+    and managing training plans. It also offers the ability to create and manage your
+    own live webinars with external guests and generate certificates automatically.
+  funding: Are you looking for a way to fund Caregiving campus? With Caregiving campus,
+    you can access over 500 courses with expert knowledge from the fields of care
+    and medicine, featuring over 2,500 learning units and 1,900 knowledge tests. It
+    also offers tools for creating and managing training plans, and the ability to
+    easily create and manage your own live webinars with external guests and generate
+    certificates automatically. With Caregiving campus, you can take your care professional
+    training to the next level. Reach out to state and local governments to inquire
+    about funding options, or explore grants and scholarships from private organizations.
+  image: https://www.pflegecampus.de/whitelabel/999999/img/Mockup_1_2.png
+  name: Caregiving campus
+  problem: I want to continue my education
+  reviews: '- "I found Caregiving Campus to be very helpful in keeping up with training.
+    I was able to quickly find and digest the information I needed without having
+    to sort through a pile of paperwork!"
+
+    - "I was able to stay up to date on the latest standards with Caregiving Campus.
+    It was very easy to use and understand."
+
+    - "Caregiving Campus saved me time by allowing me to access the training materials
+    I needed all in one place. I was able to quickly find what I needed and get back
+    to work."
+
+    - "I''m very impressed by the quality of the materials on Caregiving Campus. It
+    was easy to understand and gave me the information I needed to improve my caregiving
+    skills."'
+  use_cases: Caregiving Campus is an online learning platform that offers access to
+    expert knowledge from top care and medical professionals in more than 500 courses,
+    including mandatory training with more than 2,500 learning units and 1,900 knowledge
+    tests, making it easier than ever to access knowledge. It also provides tools
+    to create and manage training plans, integrate their own training content, access
+    live webinars with experts in the course library, and use a digital quality management
+    tool.
+  websites:
+  - https://www.pflegecampus.de/
+  - https://gesund.pulsnetz.de/ki-projekt/ki-garage/ki-katalog/show/technology/ID352
+- description: SuperNurse is a learning app for those involved in care and support
+    processes. It is a playful, sustainable and easily accessible way to stay up to
+    date on the latest in nursing and care. SuperNurse is available to download from
+    the Google Play Store or Apple App Store. It offers a variety of topics including
+    dekubitusprophylaxe, stress management, medication management, and more. SuperNurse
+    also provides certificates and evaluations to be used in quality management.
+  funding: SuperNurse is an innovative learning app for those involved in care and
+    support processes. It is a playful, sustainable and easily accessible way to stay
+    up to date on the latest in nursing and care. SuperNurse is available to download
+    from the Google Play Store or Apple App Store for free. It offers a variety of
+    topics including dekubitusprophylaxe, stress management, medication management,
+    and more. SuperNurse also provides certificates and evaluations to be used in
+    quality management. With SuperNurse, employers can save time and money while their
+    employees benefit from the convenient and engaging learning experience. Investing
+    in SuperNurse is an investment in your team and your organization.
+  image: https://supernurse.de/wp-content/uploads/2022/10/phone_orange_start.webp
+  name: Supernurse
+  problem: I want to continue my education
+  reviews: '- "The app is great! It helped me prepare for my work and I got a 1 every
+    time!"
+
+    - "SuperNurse is my new favorite app for continuing education!"
+
+    - "It has been very helpful in relieving the burden of managing continuing education."
+
+    - "I''m able to stay up-to-date on my expertise and learn in small increments
+    with the quizzes."'
+  use_cases: SuperNurse can be used to help nurses and other healthcare professionals
+    to learn and stay up to date with their knowledge, and to provide training certificates
+    to validate their learning. It can be used by employers to save time and money
+    on training and to use as an instrument in quality management. It can also be
+    used by nurses and other healthcare professionals to learn in small steps and
+    keep their knowledge up to date.
+  websites:
+  - https://supernurse.de/
