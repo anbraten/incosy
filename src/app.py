@@ -16,7 +16,7 @@ def get_random_string(length):
 
 
 # scrape.scrape()
-vectorstore = incosy.get_vector_store()
+# vectorstore = incosy.get_vector_store()
 chats = dict()
 app = Flask(__name__)
 
@@ -24,7 +24,7 @@ app = Flask(__name__)
 @app.route("/chat/start", methods=['POST'])
 def start_chat():
     chat_id = get_random_string(8)
-    chats[chat_id] = incosy.open_chat(vectorstore)
+    chats[chat_id] = incosy.open_chat()
     return chat_id
 
 
@@ -50,6 +50,8 @@ def stop_chat():
     chat_id = request.args.get('chat_id')
     if chat_id is None:
         return "No chat_id provided"
+    if chat_id not in chats:
+        return "No chat found for chat_id " + chat_id
     del chats[chat_id]
     return "ok"
 
