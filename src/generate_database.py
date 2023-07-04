@@ -92,7 +92,8 @@ def generate_db():
 
 def upload_database():
     baseUrl = "https://budibase.app/api/public/v1/"
-    url = baseUrl + "tables/" + os.getenv("BUDIBASE_TABLE_ID") + "/rows"
+    url = baseUrl + "tables/" + \
+        os.getenv("BUDIBASE_PRODUCTS_TABLE_ID") + "/rows"
 
     # load yaml file
     file = open("database.yml")
