@@ -40,10 +40,10 @@ services:
       - NEXT_PUBLIC_VIEWER_URL
       - ENCRYPTION_SECRET
 
-  gotenberg:
-    image: gotenberg/gotenberg:7
-    command:
-      - "gotenberg"
+#  gotenberg:
+#    image: gotenberg/gotenberg:7
+#    command:
+#      - "gotenberg"
 
   python:
     image: python:3.9-slim
@@ -53,6 +53,7 @@ services:
       - 5000:5000
     environment:
       - OPENAI_API_KEY
+    restart: always
     volumes:
       - ./src:/src
       - ./cache/:/root/.cache/pip
